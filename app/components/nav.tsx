@@ -4,6 +4,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import logo from "@/public/logo.jpg"
+import { Button } from "@geist-ui/react"
 
 
 export default function nav() {
@@ -13,6 +14,7 @@ export default function nav() {
       <div>
         <Link href="/" >
         <Image width={30} height={30} src={logo} alt="logo" className="w-12 h-12" />
+        <Button>Home</Button>
         </Link>
       </div>
       
